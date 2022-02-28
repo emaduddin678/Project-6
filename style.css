@@ -101,6 +101,7 @@ header{
     background-size: cover;
 } */
 /*      department cards      */
+
 .department .all-dp-box .card{
     box-sizing: border-box;
     padding: 30px;
@@ -189,25 +190,16 @@ header{
     color: #43cb83;
 }
 /* .department mid (dp mid ) complete here  */
-/* Around the university start here */
-.dp-bottom .card .card-body{
-    padding: 1rem !important;
+/* lower banner star here  */
+.dp-bottom{
+    z-index: 9999;
 }
-.dp-bottom .card .card-title{
-    font-family: 'Work Sans', sans-serif; 
-    font-weight: 500;
-    font-size: 15px;
+.dp-bottom .img-box img{
+    z-index: 9999999 !important;
+    width: 100%;
 }
-.dp-bottom .card .card-title a{
-    color: #252c3a;
-}
-.dp-bottom .card .card-title .active,a:hover{
-    color: #ffb258 !important;
-    transition: .3s;
-}
-.dp-bottom .card .card-title {
-    color: #252c3a;
-}
+
+
 /* .department section end here  */
 /* Footer section start here  */
 footer .top-footer{
